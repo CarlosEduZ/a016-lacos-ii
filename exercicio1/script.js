@@ -5,3 +5,18 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+// if(array.length === 5){
+//     for(let i in array){
+//         let jogador = `Jogador ${Number(i)+1}: `
+//         for(let j of array[i]){
+//             jogador += `${j} `
+//         }
+//         console.log(jogador)
+//     }
+// }else{
+//     console.log("é necessário atualizar os dados do elenco")
+// }
+for (i = 0; i < array.length; i++){
+    console.log(`Jogador ${i+1}: ${array[i]}` )
+}
